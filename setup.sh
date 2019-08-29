@@ -10,4 +10,3 @@ mvn install -Dinvoker.streamLogs=true
 cd ../boost-maven
 mvn install -Dinvoker.streamLogs=true
 cd ../..
-export MP_TEST_ENV_CLASS=org.eclipse.microprofile.system.test.testcontainers.HollowTestcontainersConfiguration

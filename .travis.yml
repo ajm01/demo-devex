@@ -11,5 +11,7 @@ before_install:
 
 install: true
 
-script: mvn install -DboostRuntime=ol
+script:
+    - export MP_TEST_ENV_CLASS=org.eclipse.microprofile.system.test.testcontainers.HollowTestcontainersConfiguration 
+    - mvn install -DboostRuntime=ol
 
